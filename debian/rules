@@ -1,0 +1,7 @@
+#!/usr/bin/make -f
+  
+include /usr/share/cdbs/1/rules/debhelper.mk
+include /usr/share/cdbs/1/class/autotools.mk
+
+DEB_INSTALL_MANPAGES_scolily := debian/scolily.1
+DEB_DH_MAKESHLIBS_ARGS_scolily := -n
