@@ -1,0 +1,283 @@
+# French translations for scolily package
+# Traductions françaises du paquet scolily.
+# Copyright (C) 2007 Thibaut GIRKA
+# This file is distributed under the same license as the scolily package.
+# Thibaut GIRKA <thibaut.girka@gmail.com>, 2007.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: scolily 0.0.1svn\n"
+"Report-Msgid-Bugs-To: thibaut.girka@free.fr\n"
+"POT-Creation-Date: 2007-08-26 18:24+0200\n"
+"PO-Revision-Date: 2007-08-19 18:59+0100\n"
+"Last-Translator: Thibaut GIRKA <thibaut.girka@free.fr>\n"
+"Language-Team: French <traduc@traduc.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+
+#: src/main.cpp:172
+#, c-format
+msgid "and...\n"
+msgstr "and...\n"
+
+#: src/main.cpp:220
+msgid "Unable to open plugin. Using internal lilypond converter.\n"
+msgstr ""
+"Incapable d'ouvrir le plugin. Utilisation du convertisseur lilypond "
+"interne.\n"
+
+#: src/main.cpp:230
+msgid "Unable to find CreateFile symbol in plugin.\n"
+msgstr "Incapable de trouver le symbole CreateFile dans le plugin.\n"
+
+#: src/main.cpp:235
+msgid "Unable to find StartRecording symbol in plugin.\n"
+msgstr "Incapable de trouver le symbole StartRecording dans le plugin.\n"
+
+#: src/main.cpp:240
+msgid "Unable to find CloseFile symbol in plugin.\n"
+msgstr "Incapable de trouver le symbole CloseFile dans le plugin.\n"
+
+#: src/main.cpp:249
+msgid "Unable to find AddNote symbol in plugin.\n"
+msgstr "Incapable de trouver le symbole AddNote dans le plugin.\n"
+
+#: src/main.cpp:256
+msgid "Unable to find StartNote symbol in plugin.\n"
+msgstr "Incapable de trouver le symbole StartNote dans le plugin.\n"
+
+#: src/main.cpp:261
+msgid "Unable to find StopNote symbol in plugin.\n"
+msgstr "Incapable de trouver le symbole StopNote dans le plugin.\n"
+
+#: src/main.cpp:273
+msgid "An error has occured"
+msgstr "Une erreur est survenue"
+
+#: src/main.cpp:283
+#, c-format
+msgid "Syntax error!\n"
+msgstr "Erreur de syntaxe !\n"
+
+#: src/main.cpp:289
+#, c-format
+msgid "Usage: Scolily [OPTIONS]\n"
+msgstr "Usage : Scolily [OPTIONS]\n"
+
+#: src/main.cpp:290
+#, c-format
+msgid "Scolily generates lilypond files by processing audio input\n"
+msgstr "Scolily génère un fichier lilypond en écoutant l'entrée audio.\n"
+
+#: src/main.cpp:291
+msgid "Display this help screen\n"
+msgstr "Affiche cet écran d'aide\n"
+
+#: src/main.cpp:292
+msgid "Write output to specified file (instead of Test.ly)\n"
+msgstr "Écris vers le fichier spécifié ( à la place de Test.ly )\n"
+
+#: src/main.cpp:293
+msgid "Show version information\n"
+msgstr "Affiche les informations de version\n"
+
+#: src/main.cpp:294
+msgid "Choose execution time\n"
+msgstr "Choisit le temps d'exécution\n"
+
+#: src/main.cpp:295
+msgid "Choose the recording threshold\n"
+msgstr "Choisit le seuil d'enregistrement\n"
+
+#: src/main.cpp:296
+msgid "Shift, in octave\n"
+msgstr "Décalage en octaves\n"
+
+#: src/main.cpp:297
+msgid "Specify the number of beats per minute\n"
+msgstr "Spécifie le nombre de battements par minute\n"
+
+#: src/main.cpp:298
+msgid "Do not use a GUI "
+msgstr "Ne pas utiliser de GUI "
+
+#: src/main.cpp:298
+msgid "(Not available yet)"
+msgstr "( Pas encore disponible )"
+
+#: src/main.cpp:303
+#, c-format
+msgid "Scolily v%s\n"
+msgstr "Scolily v%s\n"
+
+#: src/main.cpp:305
+#, c-format
+msgid ""
+"This program is distributed in the hope that it will be useful, but WITHOUT "
+"ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or "
+"FITNESS FOR A PARTICULAR PURPOSE.  See the GNU General Public License for "
+"more details.\n"
+msgstr ""
+"Ce logiciel est libre; voir les sources pour les conditions de copie.  Il "
+"n'y a PAS GARANTIE; ni implicite pour le MARCHANDAGE ou pour un BUT "
+"PARTICULIER.\n"
+
+#: src/mainwindow.cpp:65 src/mainwindow.cpp:74
+msgid "File"
+msgstr "Fichier"
+
+#: src/mainwindow.cpp:66
+msgid "Beat per minute"
+msgstr "Battements par minute"
+
+#: src/mainwindow.cpp:67
+msgid "Shift, in octave"
+msgstr "Décalage en octaves"
+
+#: src/mainwindow.cpp:68
+msgid "Duration (in seconds) :"
+msgstr "Longueur ( en secondes ) :"
+
+#: src/mainwindow.cpp:69
+msgid "Start"
+msgstr "Démarrer"
+
+#: src/mainwindow.cpp:70
+msgid "Stop"
+msgstr "Arrêter"
+
+#: src/mainwindow.cpp:82
+msgid "?"
+msgstr "?"
+
+#: src/mainwindow.cpp:215
+msgid "Scolily listen to the music you play and write scores."
+msgstr "Scolily écoute la musique que vous jouez et en écris des partitions."
+
+#: src/mainwindow.cpp:216
+msgid "Copyright (C) 2007 Thibaut GIRKA <thibaut.girka@gmail.com>"
+msgstr "Copyright (C) 2007 Thibaut GIRKA <thibaut.girka@gmail.com>"
+
+#: src/mainwindow.cpp:217
+msgid ""
+"Copyright (C) 2007 Thibaut GIRKA <thibaut.girka@gmail.com>\n"
+"Scolily is free software; you can redistribute it and/or modify it\n"
+"under the terms of the GNU General Public License as published by\n"
+"the Free Software Foundation; either version 2 of the License, or\n"
+"(at your option) any later version."
+msgstr ""
+"Copyright (C) 2007 Thibaut GIRKA <thibaut.girka@gmail.com>\n"
+"Scolily est un logiciel libre; vous pouvez le redistribuer et/ou le "
+"modifier\n"
+"selon les termes de la GNU General Public License (Licence Publique Générale "
+"GNU)\n"
+"telle qu'elle a été publiée par la Free Software Foundation; soit la version "
+"2 de la licence, soit (comme vous le souhaitez) toute version ultérieure."
+
+#: src/mainwindow.cpp:222
+msgid "http://www.codingteam.net/scolily-aff_en.html"
+msgstr "http://www.codingteam.net/scolily-aff_fr.html"
+
+#: src/mainwindow.cpp:225
+msgid "translator-credits"
+msgstr "Thibaut GIRKA <thibaut.girka@gmail.com>"
+
+#: src/mainwindow.cpp:310
+msgid "and..."
+msgstr "et..."
+
+#: src/mainwindow.cpp:392 src/finish-dialog.cpp:78
+msgid "Finished"
+msgstr "Terminé"
+
+#: src/mainwindow.cpp:393
+msgid ""
+"Scolily  just finished to export the file. But your plugin doesn't specify "
+"any after-processing option. It meens there is nothing to do, or you have to "
+"do it yourself."
+msgstr ""
+"Scolily viens juste de finir d'exporter votre fichier, mais le plugin que "
+"vous avez choisi ne spécifie pas de traitement supplémentaire. Cela signifie "
+"qu'il n'y a rien à faire, ou que vous devez le faire vous même."
+
+#: src/finish-dialog.cpp:31 src/finish-dialog.cpp:33 src/finish-dialog.cpp:34
+msgid "Finish"
+msgstr "Terminé"
+
+#: src/finish-dialog.cpp:35
+msgid ""
+"Scolily  just finished to export the file, you may want to run lilypond, "
+"now.\n"
+"Run lilypond ?"
+msgstr ""
+"Scolily viens juste de finir d'exporter le fichier, vous voudriez peut-être "
+"lancer lilypond maintenant.\n"
+"Lancer lilypond ?"
+
+#: src/finish-dialog.cpp:57 src/finish-dialog.cpp:83
+msgid "Error"
+msgstr "Erreur"
+
+#: src/finish-dialog.cpp:58
+msgid "Scolily did not find lilypond, please install it."
+msgstr "Scolily n'a pas trouvé lilypond, veuillez l'installer."
+
+#: src/finish-dialog.cpp:79
+msgid "Convertion finished, you should now be able to open the PDF file."
+msgstr ""
+"Conversion terminée, vous devriez maintenant pouvoir ouvrir le fichier PDF."
+
+#: src/finish-dialog.cpp:84
+msgid "Convertion failed, check the console for details."
+msgstr "Conversion impossible, veuillez vérifier la console pour les détails."
+
+#: src/settings-dialog.cpp:34
+msgid "Scolily Settings"
+msgstr "Paramètres de Scolily"
+
+#: src/settings-dialog.cpp:36
+msgid "Settings"
+msgstr "Paramètres"
+
+#: src/settings-dialog.cpp:38
+msgid ""
+"Scolily can use many plugins to export your partitions, in addition of "
+"lilypond built-in abilities."
+msgstr ""
+"Scolily peut utiliser de nombreux plugins pour exporter vos partitions, en "
+"plus de ses capacités intégrées pour lilypond."
+
+#: src/settings-dialog.cpp:41
+msgid "Threshold:"
+msgstr "Seuil:"
+
+#: src/settings-dialog.cpp:42
+msgid "Output plugin:"
+msgstr "Plugin de sortie :"
+
+#: src/settings-dialog.cpp:63
+msgid "Internal lilypond"
+msgstr "Convertisseur lilypond interne"
+
+#~ msgid "Quit"
+#~ msgstr "Quitter"
+
+#~ msgid "About"
+#~ msgstr "À propos"
+
+#~ msgid "Go!"
+#~ msgstr "C'est parti !"
+
+#~ msgid "Change settings, like plugins"
+#~ msgstr "Changer les paramètres, comme les greffons"
+
+#~ msgid "Quit scolily"
+#~ msgstr "Quitter scolily"
+
+#~ msgid "About scolily"
+#~ msgstr "À propos de scolily"
+
+#~ msgid "About Scolily"
+#~ msgstr "À propos de Scolily"

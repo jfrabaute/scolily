@@ -1,0 +1,5 @@
+# List of source files which contain translatable strings.
+src/main.cpp
+src/mainwindow.cpp
+src/finish-dialog.cpp
+src/settings-dialog.cpp

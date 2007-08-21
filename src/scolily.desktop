@@ -1,0 +1,15 @@
+[Desktop Entry]
+Name=Scolily Score Recorder
+Name[fr]=Enregistreur de partitions scolily
+Name[it]=Registrare delle partizioni scolily
+Comment=Create scores on-the-fly by recording from mic
+Comment[fr]=Crée des partitions à la volée en enregistrant depuis un micro
+Comment[it]=Crea delle partizioni al volo registrando con un microfono
+
+Exec=scolily
+Terminal=false
+Type=Application
+Icon=scolily
+Categories=GNOME;GTK;AudioVideo;
+StartupNotify=true
+
