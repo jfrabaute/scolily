@@ -1955,7 +1955,7 @@ ac_compiler_gnu=$ac_cv_c_compiler_gnu
 
 
 PACKAGE=scolily
-VERSION=0.4
+VERSION=0.4.1
 
 am__api_version='1.10'
 

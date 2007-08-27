@@ -342,6 +342,7 @@ void * UILoopTh( void * )
                 gdk_threads_enter ();
                 unsigned long Time = CurrentTime.tv_sec*1000000+CurrentTime.tv_usec-StartTime.tv_sec*1000000-StartTime.tv_usec;
                 if(Time != 0) pMainwindow->TimeBar.set_fraction(((double)Time)/((double)Duration2));
+                sprintf(TimeText,"%02d:%02d",Time/1000000/60,(Time/1000000)%60);
                 pMainwindow->TimeBar.set_text(TimeText);
                 float TimePercent = Time/(MINUTE_USEC/BPM);
                 pMainwindow->Metronome.set_orientation(((int)(TimePercent)%2)?Gtk::PROGRESS_RIGHT_TO_LEFT:Gtk::PROGRESS_LEFT_TO_RIGHT);

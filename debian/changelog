@@ -1,3 +1,9 @@
+scolily (0.4.1-0ubuntu1) gutsy; urgency=low
+
+  * New upstream version (LP: #135129)
+
+ -- Thibaut GIRKA <thibaut.girka@gmail.com>  Mon, 27 Aug 2007 11:52:12 +0200
+
 scolily (0.4-0ubuntu1) gutsy; urgency=low
 
   * Initial release

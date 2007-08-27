@@ -1,7 +1,7 @@
 AC_INIT(src/main.cpp)
 
 PACKAGE=scolily
-VERSION=0.4
+VERSION=0.4.1
 
 AM_INIT_AUTOMAKE($PACKAGE, $VERSION)
 

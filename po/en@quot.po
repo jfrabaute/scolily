@@ -27,10 +27,10 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: scolily 0.4\n"
+"Project-Id-Version: scolily 0.4.1\n"
 "Report-Msgid-Bugs-To: thibaut.girka@free.fr\n"
-"POT-Creation-Date: 2007-08-26 18:24+0200\n"
-"PO-Revision-Date: 2007-08-26 18:24+0200\n"
+"POT-Creation-Date: 2007-08-27 10:24+0200\n"
+"PO-Revision-Date: 2007-08-27 10:24+0200\n"
 "Last-Translator: Automatically generated\n"
 "Language-Team: none\n"
 "MIME-Version: 1.0\n"
@@ -206,11 +206,11 @@ msgstr "translator-credits"
 msgid "and..."
 msgstr "and..."
 
-#: src/mainwindow.cpp:392 src/finish-dialog.cpp:78
+#: src/mainwindow.cpp:393 src/finish-dialog.cpp:80
 msgid "Finished"
 msgstr "Finished"
 
-#: src/mainwindow.cpp:393
+#: src/mainwindow.cpp:394
 msgid ""
 "Scolily  just finished to export the file. But your plugin doesn't specify "
 "any after-processing option. It meens there is nothing to do, or you have to "
@@ -234,7 +234,7 @@ msgstr ""
 "now.\n"
 "Run lilypond ?"
 
-#: src/finish-dialog.cpp:57 src/finish-dialog.cpp:83
+#: src/finish-dialog.cpp:57 src/finish-dialog.cpp:85
 msgid "Error"
 msgstr "Error"
 
@@ -242,11 +242,11 @@ msgstr "Error"
 msgid "Scolily did not find lilypond, please install it."
 msgstr "Scolily did not find lilypond, please install it."
 
-#: src/finish-dialog.cpp:79
+#: src/finish-dialog.cpp:81
 msgid "Convertion finished, you should now be able to open the PDF file."
 msgstr "Convertion finished, you should now be able to open the PDF file."
 
-#: src/finish-dialog.cpp:84
+#: src/finish-dialog.cpp:86
 msgid "Convertion failed, check the console for details."
 msgstr "Convertion failed, check the console for details."
 
