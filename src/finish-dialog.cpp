@@ -58,33 +58,36 @@ void FinishDialog::ShowDialog()
                     errorDialog.set_secondary_text(_("Scolily did not find lilypond, please install it."));
                 }
                 
-                gdk_threads_leave();
-
-                while ( fgets( line, sizeof line, fPipe))
-                {
-                    printf("%s", line);
-                    gdk_threads_enter();
-                    Progression.pulse();
-                    gdk_threads_leave();
-                    usleep(100000);
-                }
-                result = pclose(fPipe);
-                
-                gdk_threads_enter();
-
-                Progression.set_fraction(1);
-
-                if(result == 0) {
-                    Gtk::MessageDialog infoDialog(*this, _("Finished"), false, Gtk::MESSAGE_INFO, Gtk::BUTTONS_OK, true);
-                    infoDialog.set_secondary_text(_("Convertion finished, you should now be able to open the PDF file."));
-                    infoDialog.run();
-                }
                 else {
-                    Gtk::MessageDialog errorDialog(*this, _("Error"), false, Gtk::MESSAGE_ERROR, Gtk::BUTTONS_OK, true);
-                    errorDialog.set_secondary_text(_("Convertion failed, check the console for details."));
-                    errorDialog.run();
-                }
+                
+                    gdk_threads_leave();
 
+                    while ( fgets( line, sizeof line, fPipe))
+                    {
+                        printf("%s", line);
+                        gdk_threads_enter();
+                        Progression.pulse();
+                        gdk_threads_leave();
+                        usleep(100000);
+                    }
+                    result = pclose(fPipe);
+                
+                    gdk_threads_enter();
+
+                    Progression.set_fraction(1);
+
+                    if(result == 0) {
+                        Gtk::MessageDialog infoDialog(*this, _("Finished"), false, Gtk::MESSAGE_INFO, Gtk::BUTTONS_OK, true);
+                        infoDialog.set_secondary_text(_("Convertion finished, you should now be able to open the PDF file."));
+                        infoDialog.run();
+                    }
+                    else {
+                        Gtk::MessageDialog errorDialog(*this, _("Error"), false, Gtk::MESSAGE_ERROR, Gtk::BUTTONS_OK, true);
+                        errorDialog.set_secondary_text(_("Convertion failed, check the console for details."));
+                        errorDialog.run();
+                    }
+                }
+    
                 break;
             case Gtk::RESPONSE_NO:
                 break;
