@@ -3,7 +3,7 @@ Section: sound
 Priority: extra
 XSBC-Original-Maintainer: Thibaut GIRKA <thibaut.girka@gmail.com>
 Maintainer: Ubuntu MOTU Developers <ubuntu-motu@lists.ubuntu.com>
-Build-Depends: cdbs, debhelper (>= 5), autotools-dev, pkg-config, fftw3-dev, libasound2-dev, libgtkmm-2.4-dev
+Build-Depends: cdbs, debhelper (>= 5), autotools-dev, pkg-config, libfftw3-dev, libasound2-dev, libgtkmm-2.4-dev
 Standards-Version: 3.7.2
 
 Package: scolily
