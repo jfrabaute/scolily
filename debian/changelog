@@ -1,3 +1,9 @@
+scolily (0.4.1-0ubuntu4) raring; urgency=low
+
+  * Added missing lib to link, fixing FTBFS.
+
+ -- Daniel T Chen <crimsun@ubuntu.com>  Tue, 16 Apr 2013 16:53:56 -0400
+
 scolily (0.4.1-0ubuntu3) precise; urgency=low
 
   * No-change rebuild to drop spurious libsfgcc1 dependency on armhf.

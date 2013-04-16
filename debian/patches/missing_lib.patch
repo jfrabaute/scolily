@@ -1,0 +1,23 @@
+diff -Nur -x '*.orig' -x '*~' scolily-0.4.1/src/Makefile.am scolily-0.4.1.new/src/Makefile.am
+--- scolily-0.4.1/src/Makefile.am	2007-08-26 12:58:06.000000000 -0400
++++ scolily-0.4.1.new/src/Makefile.am	2013-04-16 16:56:24.373687933 -0400
+@@ -2,6 +2,7 @@
+ 
+ scolily_SOURCES = main.cpp scolily.cpp scolily.h record.cpp record.h \
+                   ui.h mainwindow.cpp finish-dialog.cpp settings-dialog.cpp lilypond-internal.cpp 
++scolily_LDADD = $(LDADD) -ldl
+ 
+ plugindir = $(libdir)/scolily
+ plugin_LTLIBRARIES = libmidi.la libabc.la
+diff -Nur -x '*.orig' -x '*~' scolily-0.4.1/src/Makefile.in scolily-0.4.1.new/src/Makefile.in
+--- scolily-0.4.1/src/Makefile.in	2007-08-27 04:25:11.000000000 -0400
++++ scolily-0.4.1.new/src/Makefile.in	2013-04-16 16:55:58.158159098 -0400
+@@ -65,7 +65,7 @@
+ 	mainwindow.$(OBJEXT) finish-dialog.$(OBJEXT) \
+ 	settings-dialog.$(OBJEXT) lilypond-internal.$(OBJEXT)
+ scolily_OBJECTS = $(am_scolily_OBJECTS)
+-scolily_LDADD = $(LDADD)
++scolily_LDADD = $(LDADD) -ldl
+ scolily_DEPENDENCIES =
+ DEFAULT_INCLUDES = -I.@am__isrc@
+ depcomp = $(SHELL) $(top_srcdir)/depcomp
